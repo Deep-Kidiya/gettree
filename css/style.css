@@ -504,4 +504,50 @@ header {
     text-align: center;
 }
 
+.team-2 {
+    padding: 0 75px;
+    transform: translateY(-25%);
+}
+
+.team-2 .items img {
+    border-radius: 15px;
+}
+
+.team-2 .item-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border-radius: 10px;
+    width: 370px;
+    background: #fff;
+    transition: all 0.5s ease;
+    opacity: 0;
+    transform: translate(26px, -50px);
+}
+
+.team-2 .items:hover .item-box {
+    opacity: 1;
+    transform: translate(26px, -114px);
+}
+
+
+.team-2 .item-box h1 {
+    font-family: var(--Teko);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.team-2 .item-box h2 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.item-box .btn-i {
+    background: #E8F5E9;
+    padding: 12px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
 /* End of Team */
