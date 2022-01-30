@@ -1,0 +1,507 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.aa {
+    text-align: center;
+}
+
+.padd {
+    padding: 118px 0;
+}
+
+.heading h2 {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 8px;
+    color: #348E38;
+}
+
+.heading h1 {
+    font-family: var(--Teko);
+    font-size: 46px;
+    font-weight: 500;
+    padding: 20px 0;
+}
+
+
+:root {
+    --Teko: 'Jost', sans-serif;;
+}
+
+body {
+    height: 10000px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.pad {
+    padding: 0 375px;
+}
+
+/* Navbar */
+
+header {
+    padding: 0;
+    background: url(/img/hrader-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+}
+
+/* =============== Top ================= */
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+    height: 10px;
+}
+
+
+.top .left a {
+    padding: 20px 0;
+    font-size: 14px;
+    font-family: 500;
+    margin: 0 0 0 20px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #0F4229;
+}
+
+.top .left a:hover {
+    color: #000;
+}
+
+.top .right a {
+    color: #0F4229;
+    text-decoration: none;
+    padding: 0 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.top .right a:hover {
+    font-size: 20px;
+    color: #000;
+}
+
+/* =============== End of Top ================= */
+
+/* =============== nav ================= */
+
+.nav {
+    padding: 15px;
+    border-radius: 5px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar a {
+    padding: 0 20px;
+    text-decoration: none;
+    color: #0F4229;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.navbar a:hover {
+    transform: scale(1.2);
+    color: #348E38;
+}
+
+.navbar a::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 2px;
+    background: #348E38;
+    width: 51px;
+    height: 4px;
+    left: 19px;
+    opacity: 0;
+    bottom: 0px;
+    transition: all 0.3s ease;
+}
+
+.navbar a:hover::after {
+    opacity: 1;
+    bottom: -7px;
+}
+
+.navbar .a-1:hover:after {
+    width: 82px;
+}
+
+.btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn-1 a {
+    color: #0F4229;
+    background: #E8F5E9;
+    padding: 20px;
+    border-radius: 50px;
+    font-size: 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-1 a:hover {
+    color: #000;
+}
+
+.btn-2 button {
+    border-radius: 10px;
+    border: 3px solid transparent;
+    padding: 17px 39px;
+    background: #348E38;
+    outline: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-2 button:hover {
+    background: transparent;
+    border-color: #348E38;
+    color: #348E38;
+}
+
+/* =============== End of nav ================= */
+
+/* =============== botten ================ */
+
+.bottem img {
+    position: relative;
+    transform: translate(59px, -63px);
+}
+
+.bottem .right {
+    padding: 120px 0;
+}
+
+.bottem .text h2 {
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #348E38;
+    padding: 10px 0;
+}
+
+.bottem .text h1 {
+    font-family: var(--Teko);
+    font-size: 60px;
+    color: #0F4229;
+}
+
+.bottem .text {
+    padding: 20px 0;
+}
+
+.btns-1 {
+    display: flex;
+}
+
+.m {
+    margin-left: 20px;
+}
+
+/* =============== End of botten ================ */
+
+
+/* End of Navbar */
+
+/* Head box's */
+
+.head {
+    padding: 0 30px;
+}
+
+.box {
+    background: #fff;
+    display: flex;
+
+    width: 442px;
+    height: 190px;
+    box-shadow: 0px 1px 16px 1px rgba(0,0,0,5%);
+    padding: 30px 35px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.box:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0 16px 1px rgba(0,0,0,20%);
+}
+
+.box .icon {
+    height: 66px;
+}
+ 
+.box .text {
+    padding: 0 0 0 35px;
+}
+
+.box .text h1 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #0F4229;
+}
+
+.box .text p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #348E38;
+}
+
+/* End of Head box's */
+
+/* About */
+
+.colums {
+    padding: 118px 0    ;
+}
+
+.bg-icon img {
+    position: relative;
+    transform: translate(245%, 26%);
+    height: 151px;
+    z-index: -1;
+}
+
+.img-1 img {
+    transform: translateY(-85px);
+    height: 569px;
+    border-radius: 400px;
+    z-index: 1;
+}
+
+.box-20 {
+    position: relative;
+    transform: translate(157px, -132px);
+    background: #348E38;
+    height: 87px;
+    width: 227px;
+    border-radius: 5px;
+    padding: 9px 13px;
+}
+
+.box-20 .text .numder {
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0 -13px 0;
+   
+}
+
+.box-20 .text .numder h1 {
+    color: #fff;
+    font-family: var(--Teko);
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.box-20 .text .numder h2 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    margin-left: 5px;
+    border: none;
+}
+
+.box-20 .text {
+  border: 0.5px solid #fff;
+  border-radius: 5px;
+
+}
+
+.colums .left {
+    padding: 20px 0 0 50px;
+}
+
+.colums .left h2 {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 8px;
+    color: #348E38;
+}
+
+.colums .text-1 {
+    padding: 12px 0;
+}
+
+.colums .text-1 h1 {
+    font-family: var(--Teko);
+    font-size: 46px;
+    font-weight: 500;
+    padding: 20px 0;
+}
+
+.colums .left p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.colums .left .box-1 {
+    padding: 20px 0 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.colums .left .box-1 h1 {
+    padding: 19px 0;
+    text-transform: uppercase;
+    color: #0F4229;
+    font-family: var(--Teko);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.colums .left .box-1 p {
+    margin-top: -16px;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.colums .left .box-2 img {
+    padding: 30px 25px;
+}
+
+.left .btn-2 {
+    margin-top: 28px;
+}
+
+/* End of About */
+
+/* whot we do */
+
+.we-do {
+    background: url(/img/we-do.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 950px;
+}
+
+.main .box-2 {
+    padding: 20px;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.box-2 .icon {
+    padding: 10px 20px  0 0;
+    transition: all 0.3s ease;
+}
+
+.box-2 h1 {
+    font-family: var(--Teko);
+    font-size: 22px;
+    font-weight: 700;
+    transition: all 0.3s ease;
+}
+
+.box-2 p {
+    font-size: 16px;
+    font-weight: 400;
+    transition: all 0.3s ease;
+}
+
+.box-2 a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    color: #348E38;
+}
+
+.main .box-2:hover {
+    background:rgba(15, 66, 41, 75%);
+}
+
+
+.main .box-2:hover .icon svg g path {
+    fill: #fff;
+}
+
+.box-2:hover h1, .box-2:hover p, .box-2:hover a {
+    color: #fff;
+}
+
+/* End of whot we do */
+
+/* team */
+
+.team {
+    background: url(/img/Team.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1070px;
+}
+
+.team .heading h1, .team .heading h2 {
+    color: #fff;
+}
+
+.team-m {
+    padding: 30px 0 0 0;
+}
+
+.team-m .member {
+    width: 360px;
+    height: 500px;
+    border-radius: 10px;
+    padding: 30px;
+    background: #28553F;
+}
+
+.team-m .name h1 {
+    padding: 20px 0 10px 0;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.team-m .name h2 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+/* End of Team */
