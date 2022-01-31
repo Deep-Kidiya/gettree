@@ -508,6 +508,7 @@ header {
 
 .team-2 .items img {
     border-radius: 15px;
+    width: 420px;
 }
 
 .team-2 .item-box {
@@ -617,6 +618,9 @@ header {
 }
 
 .left-a .bg-img img {
+    overflow: hidden;
+    width: 1012px;
+    height: 836px;
     transform: translateX(-40px);
 }
 
