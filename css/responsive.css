@@ -1,53 +1,85 @@
 @media (max-width: 1880px) {
-    
-    .backg img {
-        width: 360px;
+  
+    .pad {
+        padding: 0 364px;
+    }
+
+    footer.pad {
+        padding: 1px 364px;
     }
 
 }
 
 @media (max-width: 1800px) {
 
-    .box {
-        width: 428px;
+    .pad {
+        padding: 0 320px;
     }
 
-    .pad {
-        padding: 0px 330px;
+    .head {
+        padding: 0 23px;
+    }
+
+    .bottem img {
+        position: relative;
+        transform: translate(59px, -73px);
+    }
+
+    .team-2 .items img {
+        border-radius: 15px;
+        width: 401px;
     }
 
     .team-2 {
-        padding: 0 50px;
-    }
-
-    footer.pad {
-        padding: 1px 330px;
+        padding: 0 70px;
     }
 
     .right-a .logo img {
-        transform: translate(627px, -488px);
+        transform: translate(630px, -488px);
     }
-        
+
+    footer.pad {
+        padding: 1px 320px;
+    }
+
+    .team-2 .items:hover .item-box {
+        transform: translate(15px, -114px);
+    }
+
+    .team-2 .items .item-box {
+        transform: translate(15px, -100px);
+    }
 
 }
 
 @media (max-width: 1680px) {
 
     .pad {
-        padding: 0px 277px;
+        padding: 0 260px;
     }
 
-    footer.pad {
-        padding: 1px 277px;
+    .box {
+        width: 411px;
     }
 
-    .team-2 .items img {
-        border-radius: 15px;
-        width: 373px;
+    .head {
+        padding: 0 13px;
+    }
+
+    .team-2 {
+        padding: 0 24px;
     }
 
     .right-a .logo img {
-        transform: translate(565px, -488px);
+        transform: translate(567px, -488px);
+    }
+
+    .box-a {
+        transform: translate(264px, -279px);
+    }
+
+    footer.pad {
+        padding: 1px 260px;
     }
 
 }
@@ -55,49 +87,279 @@
 @media (max-width: 1600px) {
 
     .pad {
-        padding: 0px 233px;
+        padding: 0 223px;
     }
 
     footer.pad {
-        padding: 1px 233px;
+        padding: 1px 222px;
     }
 
-    .box {
-        width: 383px;
-        padding: 28px 17px;
+    .team-2 .items img {
+        border-radius: 15px;
+        width: 380px;
     }
 
-    .head {
-        padding: 0 24px;
-    }
-
-    .bottem img {
-        transform: translate(59px, -73px);
+    .team-2 .item-box {
+        width: 348px;
     }
 
     .right-a .logo img {
-        transform: translate(534px, -488px);
+        transform: translate(532px, -488px);
+    }
+
+    .box-a {
+        transform: translate(224px, -279px);
     }
 
 }
 
 @media (max-width: 1440px) {
 
-    .no {
-        display: none;
+    .pad {
+        padding: 0 145px;
+    }
+
+    footer.pad {
+        padding: 1px 145px;
+    }
+
+    .box {
+        width: 345px;
+    }
+
+    .box .text p {
+        font-size: 13px;
+    }
+
+    .box .text h1 {
+        font-size: 16px;
+    }
+
+    .team-2 .items img {
+        width: 335px;
+    }
+
+    .team-2 .items:hover .item-box {
+        transform: translate(9px, -114px);
+    }
+
+    .team-2 .items .item-box {
+        transform: translate(9px, -100px);
+        width: 316px;
+    }
+
+    .right-a .logo img {
+        transform: translate(448px, -488px);
+    }
+
+    .box-a {
+        transform: translate(145px, -279px);
+    }
+
+}
+
+@media (max-width: 1366px) {
+
+    .pad {
+        padding: 0 104px;
+    }
+
+    footer.pad {
+        padding: 1px 104px;
+    }
+
+    .right-a .logo img {
+        transform: translate(411px, -488px);
+    }
+
+    .team-2 .items img {
+        width: 317px;
+    }
+
+    .team-2 .items .item-box {
+        width: 296px;
+    }
+
+    .box-a {
+        transform: translate(104px, -279px);
+    }
+
+    .box {
+        width: 420px;
+        margin: 10px 0;
+    }
+
+    .head {
+        padding: 0 250px;
+    }
+
+    .left-a .heading {
+        transform: translateY(-702px);
+        color: #fff;
+        padding: 0 0px;
+        width: 600px;
+        height: 503px;
     }
 
 }
 
 @media (max-width: 1280px) {
 
+    .pad {
+        padding: 0 62px;
+    }
+
+    footer.pad {
+        padding: 1px 62px;
+    }
+
+    .right-a .logo img {
+        transform: translate(371px, -488px);
+    }
+
+    .box-a {
+        transform: translate(58px, -279px);
+    }
+
+    .team-2 .items img {
+        width: 289px;
+    }
+
+    .team-2 .items .item-box {
+        width: 267px;
+    }
+
+    .team-2 .item-box h2 {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .head {
+        padding: 0 201px;
+    }
+
+    .box .text p {
+        font-size: 16px;
+    }
+
+    .box .text h1 {
+        font-size: 20px;
+    }
+
 }
 
 @media (max-width: 1200px) {
 
+    .pad {
+        padding: 0 24px;
+    }
+
+    footer.pad {
+        padding: 1px 30px;
+    }
+
+    .a-img img {
+        height: 721px;
+        position: relative;
+        z-index: -9;
+    }
+
+    .box-a {
+        transform: translate(23px, -311px);
+    }
+
+    .right-a .logo img {
+        transform: translate(327px, -488px);
+    }
+
+    .head {
+        padding: 0 145px;
+    }
+
 }
 
 @media (max-width: 1024px) {
+
+    .mw-12 {
+        display: none;
+    }
+
+    .mw-10 {
+        display: block;
+    }
+
+    .bottem img {
+        display: none;
+    }
+
+    .top {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 30px 0;
+        height: 10px;
+    }
+
+    .top .left {
+        display: grid;
+        text-align: center;
+    }
+
+    .top .left a {
+        font-size: 25px;
+        padding: 6px 0;
+    }
+
+    .top .right a {
+        font-size: 26px;
+    }
+
+    .pad {
+        padding: 0 216px;
+    }
+
+    .nav {
+        margin-top: 116px;
+    }
+
+    .bottem .right {
+        padding: 25px 0 130px;
+    }
+
+    .head {
+        padding: 0 309px;
+    }
+
+    .left .btn-2 {
+        transform: translateX(31%);
+        margin-top: 28px;
+    }
+
+
+    .team-m .member {
+        margin-top: 30px;
+    }
+
+    .team-2 {
+        padding: 0px 392px;
+        transform: translateY(67px);
+    }
+
+    .team-2 .items img {
+        border-radius: 15px;
+        width: 420px;
+    }
+
+    .team-2 .items:hover .item-box {
+        opacity: 1;
+        transform: translate(26px, -114px);
+    }
+
+    .team-2 .item-box {
+        padding: 15px;
+        width: 370px;
+    }
 
 }
 

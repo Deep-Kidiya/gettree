@@ -58,6 +58,13 @@ header {
     background-size: cover;
 }
 
+.mw-10 {
+    display: none;
+    font-size: 52px;
+    padding: 0 20px;
+    color: #0F4229;
+}
+
 /* =============== Top ================= */
 
 .top {
@@ -601,6 +608,7 @@ header {
 /* About Us */
 
 .a-img img {
+    overflow: hidden;
     height: 836px;
     position: relative;
     z-index: -9;
