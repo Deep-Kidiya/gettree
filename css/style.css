@@ -52,7 +52,7 @@ body {
 
 header {
     padding: 0;
-    background: url(/img/hrader-bg.png);
+    background: url(../img/hrader-bg.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
