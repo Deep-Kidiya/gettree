@@ -404,7 +404,7 @@ header {
 /* whot we do */
 
 .we-do {
-    background: url(/img/we-do.png);
+    background: url(../img/we-do.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -464,7 +464,7 @@ header {
 /* team */
 
 .team {
-    background: url(/img/Team.png);
+    background: url(../img/Team.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -591,7 +591,7 @@ header {
 
 .c-box:hover {
     background-color: #E8F5E9;
-    background-image: url(/img/Mask-testimonial-box.png);
+    background-image: url(../img/Mask-testimonial-box.png);
     border-color: #0F4229;
 }
 
@@ -737,7 +737,7 @@ header {
 /* Work */
 
 .work {
-    background: url(/img/Mask.png);
+    background: url(../img/Mask.png);
     background-repeat: no-repeat;
     background-position: center;
     background-position-x: right;
@@ -797,13 +797,113 @@ header {
 /* Get in touch */
 
 .get {
-    background: url(/img/Contact.png);
+    background: url(../img/contact.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 890px;
 }
 
+.get .heading h1 {
+    width: 390px;
+}
+
+.box-cc {
+    background: url(../img/box-cc.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 43px 36px;
+    position: relative;
+    z-index: 9;
+}
+
+.up {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.up-text {
+    padding: 0 20px;
+}
+
+.up-text h1 {
+    font-family: var(--Teko);
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.up-text p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.contact-box {
+    background: #fff;
+    width: 708px;
+    height: 680px;
+    transform: translateX(-102px);
+    border-radius: 10px;
+    padding: 63px 43px 51px 95px;
+}
+
+.c-1box {
+    margin-top: 20px;
+}
+
+.c-1box h1 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #0F4229;
+}
+
+.c-3box h1 {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0F4229;
+}
+
+.c-1box input {
+    outline: none;
+    padding: 15px 20px;
+    margin-top: 20px;
+    border: 2px solid rgba(15, 66, 41, 0.5);
+    border-radius: 5px;
+}
+
+.c-3box input {
+    padding: 20px 315px 90px 20px;
+    margin-top: 20px;
+    border: 2px solid rgba(15, 66, 41, 0.5);
+    border-radius: 5px;
+    outline: none;
+}
+
+.c-btn {
+    padding: 20px 0;
+}
+
+.c-btn button {
+    border-radius: 10px;
+    background-color: #28553F;
+    color: #fff;
+    border: 2px solid transparent;
+    padding: 15px 209px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.c-btn button:hover {
+    font-weight: 500;
+    background: transparent;
+    border-color: #28553F;
+    color: #28553F;
+}
 
 /* End of Get in touch */
 
@@ -886,10 +986,14 @@ header {
 
 footer {
     margin-top: 118px;
-    background: url(/img/Footer.png);
-    height: 562px;
+    background: url(../img/Footer.png);
+    padding-top: 1px;
 }
 
+footer.pad {
+    padding: 1px 375px;
+}
+ 
 .f-nave {
     display: flex;
     transform: translateY(-62px);
