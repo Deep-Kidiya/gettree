@@ -617,6 +617,13 @@
     .team-2 {
         padding: 0px 165px;
     }
+
+    .colums .left .box-1 {
+        padding: 20px 0 10px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
     
 }
 
@@ -689,6 +696,83 @@
 }
 
 @media (max-width: 412px) {
+
+    .bbox {
+        display: none;
+    }
+
+    .pad {
+        padding: 0 17px;
+    }
+
+    .head {
+        padding: 0 28px;
+    }
+
+    .box {
+        width: 364px;
+        margin: 10px 0;
+    }
+
+    .about-1.pad {
+        padding: 0 6px;
+    }
+
+    .colums .left .box-2 img {
+        padding: 0;
+        width: 344px;
+    }
+
+    .left .btn-2 {
+        transform: translateX(17%);
+        margin-top: 28px;
+    }
+
+    .colums .left {
+        padding: 20px 0 0 16px;
+    }
+
+    .team-2 {
+        padding: 0px 29px;
+    }
+
+    .team-2 .items img {
+        border-radius: 15px;
+        width: 357px;
+    }
+    
+    .team-2 .items:hover .item-box {
+        opacity: 1;
+        transform: translate(39px, -114px);
+    }
+    
+    .left-a .heading {
+        color: #fff;
+        padding: 45px 31px;
+    }
+
+    .box-a {
+        width: 373px;
+        padding: 34px 18px 34px 28px;
+        left: 4%;
+    }
+    
+    .box-a h1 {
+        font-family: var(--Teko);
+        font-size: 27px;
+        font-weight: 500;
+        line-height: 43px;
+    }
+
+    .mail input {
+        border-radius: 10px;
+        padding: 15px 140px 15px 15px;
+    }
+
+    .btn-a button {
+        padding: 17px 111px;
+    }
+
 }
 
 @media (max-width: 360px) {
