@@ -293,13 +293,32 @@
 }
 
 @media (max-width: 1024px) {
-  .mw-12 {
+  
+  .mw-11 {
     display: none;
   }
-
-  .m-1 {
-    display: block;
+  
+  .nav .logo img {
+    width: 80px;
   }
+
+  .btn-1 a {
+    color: #348e38;
+    background: #e8f5e9;
+    padding: 12px;
+  }
+
+  .btn-2 button {
+    border-radius: 10px;
+    border: 3px solid transparent;
+    padding: 13px;
+  }
+
+  .navbar a {
+    padding: 0 12px;
+    font-size: 15px;
+  }
+
 
   .mw-10 {
     display: block;
@@ -708,6 +727,18 @@
 }
 
 @media (max-width: 600px) {
+
+  .mw-12 {
+    display: none;
+  }
+
+  .m-1 {
+    display: block;
+  }
+
+  .mw-0 {
+    display: none;
+  } 
 
   .text-w {
     padding: 65px 0 69px 0px;
