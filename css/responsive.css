@@ -297,6 +297,10 @@
     display: none;
   }
 
+  .m-1 {
+    display: block;
+  }
+
   .mw-10 {
     display: block;
   }
