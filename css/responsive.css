@@ -798,6 +798,27 @@
   .box .text {
     padding: 0;
   }
+  
+  .box-a {
+    width: 373px;
+    padding: 34px 18px 34px 28px;
+    left: 4%;
+  } 
+
+  .btn-a button {
+    padding: 17px 111px;
+}
+
+.box-a .text {
+  padding: 0;
+  width: 307px;
+}
+
+.email {
+  width: 283px;
+}
+
+
 
 }
 
