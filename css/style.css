@@ -1319,6 +1319,10 @@ footer.pad {
   right: 0;
 }
 
+.top-2 {
+  position: relative;
+}
+
 .top-2::after {
   content: '';
   position: absolute;

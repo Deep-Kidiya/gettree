@@ -532,13 +532,6 @@
     padding: 20px 0;
 }
 
-.backg img {
-    position: relative;
-    z-index: -1;
-    width: 378px;
-    height: 422px;
-}
-
 .web-info .mail {
     margin: 30px 0;
 }
@@ -558,6 +551,15 @@
 .f-nave .right {
   background: #e8f5e9;
   padding: 40px 40px 6px;
+  margin: 0 0;
+}
+
+.a-2 {
+  padding: 20px 106px;
+}
+
+.top-2 {
+  padding: 0 4px;
 }
 
 .top-2::after {
@@ -568,6 +570,10 @@
   background: #28553f;
   top: 0;
   right: 0;
+}
+
+.row {
+  margin: 0 0;
 }
 
 .f-nave {
@@ -581,37 +587,67 @@
   padding: 18px 338px;
 }
 
-.top-2 {
-  padding: 0 99px;
+.m-2 {
+  display: none;
 }
 
 }
 
 @media (max-width: 912px) {
 
-    .pad {
-        padding: 0 65px;
-    }
+  .pad {
+    padding: 0 260px;
+  }
 
     .mw-10 {
       display: none;
+    }
+
+    .mw-11 {
+      display: block;
+    }
+
+    .mw-12 {
+      display: none;
+    }
+
+    .f-nave .right {
+      display: none;
+    }
+
+    .f-nave .left {
+      padding: 18px 275px;
+    }
+
+    .mw-14 {
+      display: none;
+    }
+    
+    .backg img {
+      position: relative;
+      z-index: -1;
+      width: 366px;
+      height: 422px;
     }
 
     .contact-box {
       background: #fff;
       transform: translate(0px, 23px);
       padding: 49px 13px 51px 52px;
-      width: 788px;
+      width: 366px;
+    }
+
+    .row {
+      margin: 0 0;
     }
 
     .c-3box input {
-      padding: 20px 400px 78px 20px;
-    }
+      padding: 20px 23px 78px 20px;
+  }
 
-    .c-btn button {
-      padding: 15px 253px;
-    }
-
+  .c-btn button {
+    padding: 15px 65px;
+  }
     .top-2 {
       padding: 0 0px;
     }
@@ -635,7 +671,7 @@
     }
 
     .team-2 {
-      padding: 0px 24px;
+      padding: 0px 224px;
     }
 
     .left-a .heading {
@@ -659,8 +695,12 @@
     .mw-13 {
       display: none;
     }
+    
+    .m-1 {
+      display: block;
+    }
 
-  
+
 }
 
 @media (max-width: 820px) {
@@ -780,9 +820,7 @@
     display: none;
   }
 
-  .m-1 {
-    display: block;
-  }
+  
 
   .mw-14 {
     display: none;
