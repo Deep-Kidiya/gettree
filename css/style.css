@@ -1318,3 +1318,13 @@ footer.pad {
   top: 0;
   right: 0;
 }
+
+.top-2::after {
+  content: '';
+  position: absolute;
+  width: 1px;
+  height: 53px;
+  background: #28553f;
+  top: 0;
+  right: 0;
+}
