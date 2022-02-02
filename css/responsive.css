@@ -803,6 +803,11 @@
 
 @media (max-width: 414px) {
 
+  .body {
+    width: fit-content;
+    overflow: hidden;
+  }
+
   .colums .left .box-2 img {
     padding: 0;
     width: 251px;
@@ -812,9 +817,9 @@
     transform: translateX(10%);
     margin-top: 25px;
   }
-
+ 
   .a-img img {
-    height: 276px;
+    height: 259px;
   }
 
   .right-a .logo img {
