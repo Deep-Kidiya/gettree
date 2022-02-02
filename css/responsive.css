@@ -880,8 +880,8 @@
   }
   
   .left-a .heading {
-      color: #fff;
-      padding: 45px 31px;
+    color: #fff;
+    padding: 45px 31px 415px;
   }
 
   .box-a {
@@ -921,11 +921,18 @@
   }
 
   .icon-w {
-    transform: translateX(75px);
+    transform: translateX(92px);
   }
 
   .contact-box {
     width: 351px;
+  }
+
+  .backg img {
+    position: relative;
+    z-index: -1;
+    width: 358px;
+    height: 422px;
   }
 
 }
