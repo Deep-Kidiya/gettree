@@ -801,7 +801,17 @@
 
 }
 
-@media (max-width: 412px) {
+@media (max-width: 414px) {
+
+    .colums .left .box-2 img {
+      padding: 0;
+      width: 251px;
+    }
+
+    .left .btn-2 {
+      transform: translateX(10%);
+      margin-top: 25px;
+    }
 
     .a-img img {
       height: 276px;
@@ -816,7 +826,16 @@
     }
 
     .pad {
-        padding: 0 17px;
+      padding: 0 17px;
+    }
+
+    .team-2 {
+      padding: 0px 5px;
+    }
+
+    .team-2 .items img {
+      border-radius: 15px;
+      width: 410px;
     }
 
     .head {
@@ -899,6 +918,14 @@
     .team-2 .items .item-box {
       transform: translate(16px, -100px);
       width: 330px;
+    }
+
+    .icon-w {
+      transform: translateX(75px);
+    }
+
+    .contact-box {
+      width: 351px;
     }
 
 }
