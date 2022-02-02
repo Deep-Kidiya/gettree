@@ -354,7 +354,7 @@
   }
 
   .left .btn-2 {
-    transform: translateX(31%);
+    transform: translateX(0);
     margin-top: 28px;
   }
 
@@ -717,11 +717,6 @@
       height: 400px;
   }
 
-  .box-a {
-      width: 417px;
-      padding: 34px 18px 34px 28px;
-  }
-
   .mail input {
       border-radius: 10px;
       padding: 15px 166px 15px 15px;
@@ -800,25 +795,23 @@
   }
   
   .box-a {
-    width: 373px;
+    width: 398px;
     padding: 34px 18px 34px 28px;
-    left: 4%;
-  } 
+    left: 16%;
+  }
 
   .btn-a button {
     padding: 17px 111px;
-}
+  }
 
-.box-a .text {
-  padding: 0;
-  width: 307px;
-}
+  .box-a .text {
+    padding: 0;
+    width: 307px;
+  }
 
-.email {
-  width: 283px;
-}
-
-
+  .email {
+    width: 283px;
+  }
 
 }
 
@@ -835,7 +828,7 @@
   }
 
   .left .btn-2 {
-    transform: translateX(10%);
+    transform: translateX(0%);
     margin-top: 25px;
   }
  
@@ -882,8 +875,13 @@
       width: 344px;
   }
 
+  .team-m .member {
+    margin-top: 30px;
+    width: 345px;
+  }
+
   .left .btn-2 {
-      transform: translateX(17%);
+      transform: translateX(0%);
       margin-top: 28px;
   }
 
