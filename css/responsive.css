@@ -194,7 +194,7 @@
 
   .left-a .heading {
     color: #fff;
-    padding: 120px 196px 215px 231px;
+    padding: 120px 21px 231px 33px;
   }
 
   .a-img img {
@@ -212,8 +212,11 @@
   }
 
   .box-a {
-    left: 19%;
-    display: grid;
+    left: 5%;
+  }
+
+  .team-2 .item-box {
+    padding: 23px;
   }
 
   .box-a h1 {
@@ -326,18 +329,10 @@
   }
 
   .pad {
-    padding: 0 322px;
-  }
+    padding: 0 123px;
+}
 
-  .btns-1 {
-    display: grid;
-    }
-
-    .m {
-        margin-top: 10px;
-        margin-left: 0;
-    }
-
+   
     .about-1.pad {
         padding: 0 227px;
     }
@@ -351,7 +346,7 @@
   }
 
   .head {
-    padding: 0 309px;
+    padding: 0 85px;
   }
 
   .left .btn-2 {
@@ -364,7 +359,7 @@
   }
 
   .team-2 {
-    padding: 0px 288px;
+    padding: 0px 63px;
     transform: translateY(67px);
   }
 
@@ -384,7 +379,7 @@
   }
 
   .a-img img {
-    height: 690px;
+    height: 680px;
     overflow: hidden;
     position: relative;
     z-index: -9;
@@ -464,7 +459,7 @@
   }
 
   .c-3box input {
-    padding: 20px 23px 78px 20px;
+    padding: 20px 350px 78px 20px;
   }
 
   .c-btn button {
@@ -472,13 +467,14 @@
     background-color: #28553f;
     color: #fff;
     border: 2px solid transparent;
-    padding: 15px 64px;
+    padding: 15px 230px;
   }
 
   .contact-box {
     background: #fff;
     transform: translate(0px, 26px);
     padding: 49px 13px 51px 83px;
+    width: 779px;
 }
 
 .f-nave {
@@ -532,7 +528,40 @@
 @media (max-width: 912px) {
 
     .pad {
-        padding: 0 266px;
+        padding: 0 65px;
+    }
+
+    .mw-10 {
+      display: none;
+    }
+
+    .contact-box {
+      background: #fff;
+      transform: translate(0px, 23px);
+      padding: 49px 13px 51px 52px;
+      width: 788px;
+    }
+
+    .c-3box input {
+      padding: 20px 400px 78px 20px;
+    }
+
+    .c-btn button {
+      padding: 15px 253px;
+    }
+
+    .box {
+      width: 378px;
+      margin: 10px 0;
+    }
+
+    .head {
+      padding: 0 31px;
+    }
+
+    .a-img img {
+      height: 607px;
+   
     }
 
     .box-a {
@@ -540,8 +569,13 @@
     }
 
     .team-2 {
-        padding: 0px 244px;
+      padding: 0px 24px;
     }
+
+    .left-a .heading {
+      color: #fff;
+      padding: 49px 91px 483px 162px;
+  }
 
     .about-1.pad {
         padding: 0 185px;
@@ -564,7 +598,14 @@
     }
 
     .pad {
-        padding: 0 221px;
+        padding: 0 19px;
+    }
+
+    .contact-box {
+      background: #fff;
+      transform: translate(7px, 23px);
+      padding: 49px 13px 51px 52px;
+      width: 776px;
     }
 
     .box-a {
@@ -581,7 +622,7 @@
     }
 
     .head {
-        padding: 0 224px;
+        padding: 0 27px;
     }
 
     .about-1.pad {
@@ -601,13 +642,32 @@
         /* padding: 6px 0; */
     }
 
+    .c-3box input {
+      padding: 20px 22px 78px 20px;
+    }
+
+    .c-btn button {
+      padding: 15px 61px;
+    }
+
+    .contact-box {
+      background: #fff;
+      transform: translate(7px, 23px);
+      padding: 49px 13px 51px 52px;
+      width: 383px;
+    }
+
+    .mw-11 {
+      display: none;
+    }
+
     .a-img img {
         height: 512px;
     }
 
     .left-a .heading {
-        color: #fff;
-        padding: 49px 173px 483px 117px;
+      color: #fff;
+      padding: 49px 86px 483px 117px;
     }
 
     .pad {
@@ -623,6 +683,18 @@
         display: flex;
         align-items: center;
         justify-content: space-evenly;
+    }
+
+    .mw-11 {
+      display: block;
+    }
+
+    .btns-1 {
+      display: grid;
+    }
+
+    .btns-1 .btn-2 {
+      margin: 10px 0;
     }
     
 }
@@ -693,9 +765,21 @@
         width: 438px;
     }
 
+    .colums .right {
+      display: none;
+    } 
+
 }
 
 @media (max-width: 412px) {
+
+    .a-img img {
+      height: 276px;
+    }
+
+    .right-a .logo img {
+      top: 7%;
+    }
 
     .bbox {
         display: none;
