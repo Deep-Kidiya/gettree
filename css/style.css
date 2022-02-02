@@ -739,9 +739,16 @@ header {
   z-index: -9;
 }
 
+.col-xl-6.col-12 {
+  padding: 0 0;
+}
+
 .left-a {
   z-index: 1;
   background: url(../img/content.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .right-a .logo img {
