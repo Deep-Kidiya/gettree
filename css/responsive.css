@@ -496,9 +496,9 @@
   .contact-box {
     background: #fff;
     transform: translate(0px, 26px);
-    padding: 49px 13px 51px 83px;
+    padding: 49px 64px 51px 83px;
     width: 779px;
-}
+  }
 
 
 
@@ -610,6 +610,10 @@
 
     .c-btn button {
       padding: 15px 253px;
+    }
+
+    .top-2 {
+      padding: 0 0px;
     }
 
     .box {
