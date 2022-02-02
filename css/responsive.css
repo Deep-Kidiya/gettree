@@ -713,220 +713,220 @@
     padding: 65px 0 69px 0px;
   }
 
-    .a-img img {
-        height: 400px;
-    }
+  .a-img img {
+      height: 400px;
+  }
 
-    .box-a {
-        width: 417px;
-        padding: 34px 18px 34px 28px;
-    }
+  .box-a {
+      width: 417px;
+      padding: 34px 18px 34px 28px;
+  }
 
-    .mail input {
-        border-radius: 10px;
-        padding: 15px 166px 15px 15px;
-    }
+  .mail input {
+      border-radius: 10px;
+      padding: 15px 166px 15px 15px;
+  }
 
-    .btn-a button {
-        padding: 17px 127px;
-    }
+  .btn-a button {
+      padding: 17px 127px;
+  }
 
-    .about-1.pad {
-        padding: 0 34px;
-    }
+  .about-1.pad {
+      padding: 0 34px;
+  }
 
-    .head {
-      padding: 0 109px;
-    }
+  .head {
+    padding: 0 109px;
+  }
 
-    .team-2 {
-        padding: 0px 97px;
-    }
+  .team-2 {
+      padding: 0px 97px;
+  }
 
-    .pad {
-        padding: 0 110px;
-    }
+  .pad {
+      padding: 0 110px;
+  }
 
-    .box-a h1 {
-        font-family: var(--Teko);
-        font-size: 30px;
-        font-weight: 500;
-        line-height: 43px;
-    }
+  .box-a h1 {
+      font-family: var(--Teko);
+      font-size: 30px;
+      font-weight: 500;
+      line-height: 43px;
+  }
 
-    .about-1.pad {
-        padding: 0 60px;
-    }
+  .about-1.pad {
+      padding: 0 60px;
+  }
 
-    .img-1 img {
-        transform: translateY(-85px);
-        height: 525px;
-        border-radius: 400px;
-        z-index: 1;
-    }
+  .img-1 img {
+      transform: translateY(-85px);
+      height: 525px;
+      border-radius: 400px;
+      z-index: 1;
+  }
 
-    .bg-icon img {
-        position: relative;
-        transform: translate(233%, 40%);
-        height: 151px;
-        z-index: -1;
-    }
+  .bg-icon img {
+      position: relative;
+      transform: translate(233%, 40%);
+      height: 151px;
+      z-index: -1;
+  }
 
-    .colums .left .box-2 img {
-        padding: 0;
-        width: 438px;
-    }
-
-    .colums .right {
-      display: none;
-    } 
-
-    .team-2 .items .item-box {
-      transform: translate(26px, -100px);
-      width: 354px;
-    }
-
-    .box {
-      display: grid;
-      align-items: center;
-      justify-content: center;
-      height: 217px;
-      text-align: center;
-      width: 319px;
-    }
-
-    .box .text {
+  .colums .left .box-2 img {
       padding: 0;
-    }
+      width: 438px;
+  }
+
+  .colums .right {
+    display: none;
+  } 
+
+  .team-2 .items .item-box {
+    transform: translate(26px, -100px);
+    width: 354px;
+  }
+
+  .box {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 217px;
+    text-align: center;
+    width: 319px;
+  }
+
+  .box .text {
+    padding: 0;
+  }
 
 }
 
 @media (max-width: 414px) {
 
-    .colums .left .box-2 img {
+  .colums .left .box-2 img {
+    padding: 0;
+    width: 251px;
+  }
+
+  .left .btn-2 {
+    transform: translateX(10%);
+    margin-top: 25px;
+  }
+
+  .a-img img {
+    height: 276px;
+  }
+
+  .right-a .logo img {
+    top: 7%;
+  }
+
+  .bbox {
+      display: none;
+  }
+
+  .pad {
+    padding: 0 17px;
+  }
+
+  .team-2 {
+    padding: 0px 5px;
+  }
+
+  .team-2 .items img {
+    border-radius: 15px;
+    width: 410px;
+  }
+
+  .head {
+      padding: 0 28px;
+  }
+
+  .box {
+      width: 364px;
+      margin: 10px 0;
+  }
+
+  .about-1.pad {
+      padding: 0 6px;
+  }
+
+  .colums .left .box-2 img {
       padding: 0;
-      width: 251px;
-    }
+      width: 344px;
+  }
 
-    .left .btn-2 {
-      transform: translateX(10%);
-      margin-top: 25px;
-    }
+  .left .btn-2 {
+      transform: translateX(17%);
+      margin-top: 28px;
+  }
 
-    .a-img img {
-      height: 276px;
-    }
+  .colums .left {
+      padding: 20px 0 0 16px;
+  }
 
-    .right-a .logo img {
-      top: 7%;
-    }
+  .team-2 {
+      padding: 0px 29px;
+  }
 
-    .bbox {
-        display: none;
-    }
-
-    .pad {
-      padding: 0 17px;
-    }
-
-    .team-2 {
-      padding: 0px 5px;
-    }
-
-    .team-2 .items img {
+  .team-2 .items img {
       border-radius: 15px;
-      width: 410px;
-    }
-
-    .head {
-        padding: 0 28px;
-    }
-
-    .box {
-        width: 364px;
-        margin: 10px 0;
-    }
-
-    .about-1.pad {
-        padding: 0 6px;
-    }
-
-    .colums .left .box-2 img {
-        padding: 0;
-        width: 344px;
-    }
-
-    .left .btn-2 {
-        transform: translateX(17%);
-        margin-top: 28px;
-    }
-
-    .colums .left {
-        padding: 20px 0 0 16px;
-    }
-
-    .team-2 {
-        padding: 0px 29px;
-    }
-
-    .team-2 .items img {
-        border-radius: 15px;
-        width: 357px;
-    }
-    
-    .team-2 .items:hover .item-box {
-      opacity: 1;
-      transform: translate(16px, -114px);
-    }
-    
-    .left-a .heading {
-        color: #fff;
-        padding: 45px 31px;
-    }
-
-    .box-a {
-        width: 373px;
-        padding: 34px 18px 34px 28px;
-        left: 4%;
-    }
-    
-    .box-a h1 {
-        font-family: var(--Teko);
-        font-size: 27px;
-        font-weight: 500;
-        line-height: 43px;
-    }
-
-    .mail input {
-        border-radius: 10px;
-        padding: 15px 140px 15px 15px;
-    }
-
-    .btn-a button {
-        padding: 17px 111px;
-    }
-
-    .box-a .text {
-      padding: 0;
-      width: 307px;
-    }
+      width: 357px;
+  }
   
-    .email {
-      width: 283px;
-    }
+  .team-2 .items:hover .item-box {
+    opacity: 1;
+    transform: translate(16px, -114px);
+  }
+  
+  .left-a .heading {
+      color: #fff;
+      padding: 45px 31px;
+  }
 
-    .team-2 .items .item-box {
-      transform: translate(16px, -100px);
-      width: 330px;
-    }
+  .box-a {
+      width: 373px;
+      padding: 34px 18px 34px 28px;
+      left: 4%;
+  }
+  
+  .box-a h1 {
+      font-family: var(--Teko);
+      font-size: 27px;
+      font-weight: 500;
+      line-height: 43px;
+  }
 
-    .icon-w {
-      transform: translateX(75px);
-    }
+  .mail input {
+      border-radius: 10px;
+      padding: 15px 140px 15px 15px;
+  }
 
-    .contact-box {
-      width: 351px;
-    }
+  .btn-a button {
+      padding: 17px 111px;
+  }
+
+  .box-a .text {
+    padding: 0;
+    width: 307px;
+  }
+
+  .email {
+    width: 283px;
+  }
+
+  .team-2 .items .item-box {
+    transform: translate(16px, -100px);
+    width: 330px;
+  }
+
+  .icon-w {
+    transform: translateX(75px);
+  }
+
+  .contact-box {
+    width: 351px;
+  }
 
 }
 
