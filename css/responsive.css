@@ -705,6 +705,10 @@
 
 @media (max-width: 600px) {
 
+  .text-w {
+    padding: 65px 0 69px 0px;
+  }
+
     .a-img img {
         height: 400px;
     }
@@ -728,7 +732,7 @@
     }
 
     .head {
-        padding: 0 79px;
+      padding: 0 109px;
     }
 
     .team-2 {
@@ -772,6 +776,24 @@
     .colums .right {
       display: none;
     } 
+
+    .team-2 .items .item-box {
+      transform: translate(26px, -100px);
+      width: 354px;
+    }
+
+    .box {
+      display: grid;
+      align-items: center;
+      justify-content: center;
+      height: 217px;
+      text-align: center;
+      width: 319px;
+    }
+
+    .box .text {
+      padding: 0;
+    }
 
 }
 
@@ -830,8 +852,8 @@
     }
     
     .team-2 .items:hover .item-box {
-        opacity: 1;
-        transform: translate(39px, -114px);
+      opacity: 1;
+      transform: translate(16px, -114px);
     }
     
     .left-a .heading {
@@ -860,5 +882,132 @@
     .btn-a button {
         padding: 17px 111px;
     }
+
+    .box-a .text {
+      padding: 0;
+      width: 307px;
+    }
+  
+    .email {
+      width: 283px;
+    }
+
+    .team-2 .items .item-box {
+      transform: translate(16px, -100px);
+      width: 330px;
+    }
+
+}
+
+@media (max-width: 360px) {
+
+  .box {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    width: 319px;
+  }
+
+  .team-m .member {
+    margin-top: 30px;
+  }
+
+  .m-img img {
+    width: 264px;
+  }
+
+  .team-m .member {
+    width: 326px;
+    margin-top: 30px;
+  }
+
+  .m-img:hover .hover-i {
+    height: 299px;
+    width: 265px;
+  }
+
+  .m-img .hover-i {
+    width: 265px;
+  }
+
+  .team-2 .items img {
+    border-radius: 15px;
+    width: 308px;
+  }
+
+  .a-img img {
+    height: 239px;
+  }
+
+  .c-box {
+    width: 321px;
+  }
+
+  .box-a {
+    width: 332px;
+    padding: 25px 18px 25px 23px;
+    left: 4%;
+  }
+
+  .box-a h1 {
+    font-size: 23px;
+  }
+  
+  .mail input {
+    border-radius: 10px;
+    padding: 15px 105px 15px 15px;
+  }
+
+  .btn-a button {
+    padding: 17px 93px;
+  }
+
+  .box-a .text {
+    padding: 0;
+    width: 307px;
+  }
+
+  .email {
+    width: 283px;
+  }
+
+  .left-a .heading {
+    color: #fff;
+    padding: 45px 31px 419px;
+  }
+
+  .get .heading h1 {
+    width: 332px;
+  }
+
+  .contact-box {
+    width: 323px;
+  }
+
+  .backg img {
+    position: relative;
+    z-index: -1;
+    width: 324px;
+    height: 422px;
+  }
+
+  .colums .left .box-2 img {
+    padding: 0;
+    width: 305px;
+  }
+
+  .team-2 .items:hover .item-box {
+    opacity: 1;
+    transform: translate(18px, -114px);
+  }
+ 
+  .team-2 .items .item-box {
+    opacity: 0;
+    transform: translate(18px, -100px);
+  }
+
+  .icon-w {
+    transform: translateX(60px);
+  }
 
 }
