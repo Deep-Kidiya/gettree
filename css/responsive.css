@@ -294,6 +294,31 @@
 
 @media (max-width: 1024px) {
   
+  .heading h2 {
+    letter-spacing: 4px;
+  }
+
+  .colums .left h2 {
+    letter-spacing: 4px;
+  }
+
+  .box-1 .text {
+    padding: 0 45px;
+  }
+
+  .client-1 .padd {
+    padding: 118px 0;
+    margin: 0;
+  }
+
+  .navbar a::after {
+    left: 12px;
+  }
+
+  .navbar .a-1:hover:after {
+    width: 66px;
+  }
+
   .mw-11 {
     display: none;
   }
@@ -353,12 +378,12 @@
 
   .pad {
     padding: 0 123px;
-}
+  }
 
-   
-    .about-1.pad {
-        padding: 0 227px;
-    }
+
+  .bbox .right {
+    padding: 0 96px;
+  }
 
   .nav {
     margin-top: 161px;
@@ -392,11 +417,13 @@
   }
 
   .team-2 .items:hover .item-box {
+    width: 359px;
     opacity: 1;
     transform: translate(26px, -114px);
   }
 
   .team-2 .item-box {
+    width: 359px;
     padding: 15px;
     width: 370px;
   }
@@ -420,9 +447,7 @@
   }
 
   .email {
-    display: grid;
-    background: transparent;
-    padding: 0;
+    width: 517px;
   }
 
   .mail input {
@@ -432,7 +457,7 @@
    }
 
    .btn-a button {
-     padding: 17px 194px;
+     padding: 17px 16px;
     }
 
     .right-a .logo img {
@@ -441,7 +466,7 @@
     }
 
   .mail {
-    width: 100%;
+    width: 70%;
     margin: 10px 0;
 }
 
@@ -457,6 +482,7 @@
 
   .box-a {
     bottom: 49px;
+    left: 20%;
   }
 
   .main .box-2 {
@@ -482,7 +508,7 @@
   }
 
   .c-3box input {
-    padding: 20px 350px 78px 20px;
+    padding: 20px 327px 78px 20px;
   }
 
   .c-btn button {
@@ -490,14 +516,14 @@
     background-color: #28553f;
     color: #fff;
     border: 2px solid transparent;
-    padding: 15px 230px;
+    padding: 15px 216px;
   }
 
   .contact-box {
     background: #fff;
     transform: translate(0px, 26px);
     padding: 49px 64px 51px 83px;
-    width: 779px;
+    width: 753px;
   }
 
 
@@ -533,7 +559,7 @@
 }
 
 .web-info .mail {
-    margin: 30px 0;
+  margin: 30px 0 30px 123px;
 }
 
 .mw-13 {
@@ -550,9 +576,11 @@
 
 .f-nave .right {
   background: #e8f5e9;
-  padding: 40px 40px 6px;
-  margin: 0 0;
+  padding: 40px;
+  border-radius: 10px;
+  margin-left: 18px;
 }
+
 
 .a-2 {
   padding: 20px 106px;
@@ -560,16 +588,6 @@
 
 .top-2 {
   padding: 0 4px;
-}
-
-.top-2::after {
-  content: '';
-  position: absolute;
-  width: 0;
-  height: 0;
-  background: #28553f;
-  top: 0;
-  right: 0;
 }
 
 .row {
@@ -591,36 +609,30 @@
   display: none;
 }
 
+.up {
+  padding: 10px 43px;
+  display: flex;
+  align-items: center;
+}
+
+.up-2 {
+  padding: 22px 200px 0;
+}
+
 }
 
 @media (max-width: 912px) {
 
   .pad {
-    padding: 0 260px;
+    padding: 0 66px;
   }
 
     .mw-10 {
       display: none;
     }
 
-    .mw-11 {
-      display: block;
-    }
-
-    .mw-12 {
-      display: none;
-    }
-
-    .f-nave .right {
-      display: none;
-    }
-
     .f-nave .left {
       padding: 18px 275px;
-    }
-
-    .mw-14 {
-      display: none;
     }
     
     .backg img {
@@ -633,8 +645,13 @@
     .contact-box {
       background: #fff;
       transform: translate(0px, 23px);
-      padding: 49px 13px 51px 52px;
-      width: 366px;
+      padding: 49px 0px 51px 79px;
+      width: 761px;
+    }
+
+    .f-nave .right a {
+      padding: 0px 10px;
+      font-size: 14px;
     }
 
     .row {
@@ -642,11 +659,11 @@
     }
 
     .c-3box input {
-      padding: 20px 23px 78px 20px;
+      padding: 20px 366px 78px 20px;
   }
 
   .c-btn button {
-    padding: 15px 65px;
+    padding: 15px 236px;
   }
     .top-2 {
       padding: 0 0px;
@@ -667,20 +684,21 @@
     }
 
     .box-a {
-        left: 16%;
+      bottom: 82px;
+      left: 17%;
     }
 
     .team-2 {
-      padding: 0px 224px;
+      padding: 0px 16px;
     }
 
     .left-a .heading {
       color: #fff;
-      padding: 49px 91px 483px 162px;
-  }
+      padding: 93px 91px 483px 162px;
+    } 
 
     .about-1.pad {
-        padding: 0 185px;
+        padding: 0 80px;
     }
 
     .box-1 .text {
@@ -692,20 +710,23 @@
         /* padding: 6px 0; */
     }
 
-    .mw-13 {
-      display: none;
-    }
     
-    .m-1 {
-      display: block;
-    }
-
+    
+  
 
 }
 
 @media (max-width: 820px) {
     .a-img img {
         height: 547px;
+    }
+
+    .bbox .right {
+      padding: 0;
+    }
+
+    .f-nave .left {
+      padding: 18px 237px;
     }
 
     .pad {
@@ -716,20 +737,59 @@
       background: #fff;
       transform: translate(7px, 23px);
       padding: 49px 13px 51px 52px;
-      width: 776px;
+      width: 751px;
+    }
+
+    .left-a .heading {
+      color: #fff;
+      padding: 93px 75px 483px 122px;
+    }
+
+    .team-2 {
+      padding: 0px 15px;
+    }
+
+    .team-2 .items img {
+      border-radius: 15px;
+      width: 362px;
+    }
+
+    .team-2 .items {
+      height: 450px;
+    }
+
+    .team-2 .items:hover .item-box {
+      width: 310px;
+      opacity: 1;
+      transform: translate(26px, -114px);
     }
 
     .box-a {
+      padding: 50px 40px 52px 45px;
         left: 14%;
         padding-right: 0;
     }
 
-    .right-a .logo img {
-        top: 12%;
+    .mail input {
+      border-radius: 10px;
+      padding: 15px 274px 15px 15px;
+      background: transparent;
+    } 
+
+    .text-w {
+      padding: 70px 0 70px 26px;
     }
 
-    .team-2 {
-        padding: 0px 196px;
+    .icon-w {
+      transform: translateX(91px);
+    }
+
+    .email {
+      width: 492px;
+    }
+
+    .right-a .logo img {
+        top: 12%;
     }
 
     .head {
@@ -737,7 +797,16 @@
     }
 
     .about-1.pad {
-        padding: 0 156px;
+      padding: 0 32px;
+    }
+
+    .box-1 .text {
+      padding: 0 17px;
+    }
+
+    .f-nave .right a {
+      padding: 0px 6px;
+      font-size: 13px;
     }
     
     .nav {
@@ -754,18 +823,44 @@
     }
 
     .c-3box input {
-      padding: 20px 22px 78px 20px;
+      padding: 20px 356px 78px 20px;
     }
 
     .c-btn button {
-      padding: 15px 61px;
+      padding: 15px 232px;
     }
 
     .contact-box {
       background: #fff;
       transform: translate(7px, 23px);
-      padding: 49px 13px 51px 52px;
-      width: 383px;
+      padding: 49px 13px 51px 67px;
+      width: 735px;
+    }
+
+    .web-info .mail {
+      margin: 30px 0 30px 107px;
+    }
+
+    .left-a .heading {
+      color: #fff;
+      padding: 49px 10px 483px 35px;
+    }
+
+    .team-2 .items img {
+      border-radius: 15px;
+      width: 328px;
+    }
+
+    .team-2 .items:hover .item-box {
+      transform: translate(11px, -114px);
+    }
+
+    .team-2 .items {
+      height: 416px;
+    }
+
+    .text-w {
+      padding: 70px 0 70px 1px;
     }
 
     .mw-11 {
@@ -776,18 +871,30 @@
         height: 512px;
     }
 
-    .left-a .heading {
-      color: #fff;
-      padding: 49px 86px 483px 117px;
-    }
-
-    .pad {
-        padding: 0 194px;
+    .box-a {
+      padding: 50px 40px 52px 45px;
+      left: 13%;
+      padding-right: 0;
     }
 
     .team-2 {
-        padding: 0px 165px;
+      padding: 0px 19px;
     }
+  
+  
+
+    .pad {
+        padding: 0 0;
+    }
+
+    .backg img {
+      width: 361px;
+    }
+
+    .f-nave .left {
+      padding: 18px 207px;
+    }
+
 
     .colums .left .box-1 {
         padding: 20px 0 10px 0;
@@ -796,9 +903,7 @@
         justify-content: space-evenly;
     }
 
-    .mw-11 {
-      display: block;
-    }
+    
 
     .btns-1 {
       display: grid;
@@ -808,9 +913,35 @@
       margin: 10px 0;
     }
     
+    .bbox {
+      padding: 0 45px;
+    }
+    
 }
 
 @media (max-width: 600px) {
+
+  .email {
+    display: grid;
+  }
+
+  .mw-11 {
+    display: block;
+  }
+
+  .mw-13 {
+    display: none;
+  }
+
+  .m-1 {
+    display: block;
+  }
+
+  
+  .mw-11 {
+    display: block;
+  }
+
 
   .mw-12 {
     display: none;
@@ -840,11 +971,11 @@
 
   .mail input {
       border-radius: 10px;
-      padding: 15px 166px 15px 15px;
+      padding: 15px 468px 15px 15px;
   }
 
   .btn-a button {
-      padding: 17px 127px;
+      padding: 17px 177px;
   }
 
   .about-1.pad {
@@ -921,22 +1052,75 @@
     left: 16%;
   }
 
-  .btn-a button {
-    padding: 17px 111px;
-  }
-
   .box-a .text {
     padding: 0;
     width: 307px;
   }
 
   .email {
-    width: 283px;
+    width: 296px;
+    background: transparent;
+    padding: 1px 10px 10px 3px;
+  }
+
+  .left-a .heading {
+    color: #fff;
+    padding: 100px 10px 483px 35px;
+  }
+  
+  .right-a .logo img {
+    top: 8%;
+  }
+
+  .web-info .mail {
+    background: transparent;
+    margin: 30px 0 30px 51px;
+  }
+
+  .colums .left {
+    padding: 26px 0 0 0px;
+  }
+
+  .box-a {
+    width: 527px;
+    padding: 34px 18px 34px 28px;
+    left: 6%;
+  }
+
+  .up {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+  }
+
+  .contact-box {
+    background: #fff;
+    transform: translate(7px, 23px);
+    padding: 49px 13px 51px 48px;
+    width: 360px;
+  }
+
+  .c-3box input {
+    padding: 20px 20px 78px 20px;
+  }
+
+  .c-btn button {
+    padding: 15px 64px;
+  }
+
+  .mail {
+    background: #e8f5e9;
+    width: 70%;
+    margin: 10px 0;
   }
 
 }
 
 @media (max-width: 414px) {
+
+  .c-box {
+    width: 321px;
+  }
 
   .body {
     width: fit-content;
@@ -1026,7 +1210,7 @@
   
   .left-a .heading {
     color: #fff;
-    padding: 45px 24px 415px;
+    padding: 45px 24px 454px;
   }
 
   .box-a {
@@ -1044,7 +1228,7 @@
 
   .mail input {
       border-radius: 10px;
-      padding: 15px 140px 15px 15px;
+      padding: 15px 269px 15px 15px;
   }
 
   .btn-a button {

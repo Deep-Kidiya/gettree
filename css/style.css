@@ -176,14 +176,13 @@ header {
   background: #348e38;
   height: 4px;
   left: 19px;
-  opacity: 0;
   bottom: 0px;
   transition: all 0.3s ease;
 }
 
 .navbar a:hover::after {
-  opacity: 1;
   bottom: -7px;
+  width: 42px;
 }
 
 .navbar .a-1:hover:after {
@@ -564,6 +563,12 @@ header {
   width: 420px;
 }
 
+.team-2 .items {
+  
+  height: 511px;
+
+}
+
 .team-2 .item-box {
   display: flex;
   align-items: center;
@@ -683,7 +688,13 @@ header {
 }
 
 .client-1 .padd {
+  margin: -160px 0 0;
   padding: 0 0 118px;
+}
+
+.m-2 {
+  margin: 0.5rem!important;
+  width: 368px;
 }
 
 .c-box {
